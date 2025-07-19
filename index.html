@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+
+<body>
+    <form>
+        <!-- Text input -->
+        <label>Name:
+            <input type="text" name="name">
+        </label>
+        <br><br>
+
+        <!-- Email input -->
+        <label>Email:
+            <input type="email" name="email">
+        </label>
+        <br><br>
+
+        <!-- Password input -->
+        <label>Password:
+            <input type="password" name="password">
+        </label>
+        <br><br>
+
+        <!-- Radio buttons (one choice only) -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+        <!-- Checkboxes (can select multiple) -->
+        <label>Favorite Subjects:</label>
+        <input type="checkbox" name="subject" value="math"> Math
+        <input type="checkbox" name="subject" value="science"> Science
+        <input type="checkbox" name="subject" value="english"> English
+        <br><br>
+
+
+
+
+        <!-- Dropdown/select -->
+        <label>Grade:
+            <select name="grade">
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+            </select>
+        </label>
+        <br><br>
+
+        <!-- Textarea -->
+        <label>Comments:
+            <textarea name="comments" rows="3" cols="30"></textarea>
+        </label>
+        <br><br>
+
+        <!-- Number input -->
+        <label>Age:
+            <input type="number" name="age" min="1" max="100">
+        </label>
+        <br><br>
+
+        <!-- Date input -->
+        <label>Birthdate:
+            <input type="date" name="birthdate">
+        </label>
+        <br><br>
+
+        <!-- File upload -->
+        <label>Upload your photo:
+            <input type="file" name="photo">
+        </label>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
